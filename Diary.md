@@ -110,7 +110,10 @@ bibliography: references.bib
   + Finish up the Project Proposal and share it for review
 
 - #### Andrew:
-  - 
+  +We implemented a Bayesian Network using the symptomatic dataset.
+  +we formed it on the basic Naive Bayes level and had parent nodes as  smoker,musle pain,fever,cough , breathing difficulties, fever, Age and gender with our target variable being COVID.
+  +Continuous research for a new dataset continued and we found one that gave a general summary for the symptoms of long covid and the general duration it takes.
+  
 - #### Christine:
   - 
 
@@ -126,7 +129,13 @@ bibliography: references.bib
   + Allign the project plan with weekly progress!
   + https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence - could be used as a practice for the sake of modelling, but find a more reliable data set.
 - #### Andrew:
-  - 
+   + Determined the procedure to conver our ipynb files to.py
+  + we utilised the psutil function to determine the amount of memory used by code.
+  + Printing out the appearance of the network using networkx and matplotlib.pyplot libraries
+  +we selected a proper partition for the age groups , we will then group our data based on this partitioning,
+<15,15-44,45-64,66-74,>74
+  +Determining the prior probabilities for given parent nodes such as diabetes and hypertension for the network we are going to implement
+  +Added more edges to the orginal network, taking it from the Basic Naive Bayes to a more advanced network.
 - #### Christine:
   - 
 
