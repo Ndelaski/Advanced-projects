@@ -133,7 +133,7 @@ bibliography: references.bib
   + we utilised the psutil function to determine the amount of memory used by code.
   + Printing out the appearance of the network using networkx and matplotlib.pyplot libraries
   + we selected a proper partition for the age groups , we will then group our data based on this partitioning,
-<15,15-44,45-64,66-74,>74
+<12,13-24,25-44,45-65,>66
   + Determining the prior probabilities for given parent nodes such as diabetes and hypertension for the network we are going to implement
   + Added more edges to the orginal network, taking it from the Basic Naive Bayes to a more advanced network.
 - #### Christine:
