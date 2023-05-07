@@ -154,48 +154,69 @@ bibliography: references.bib
   + Working on implementation of the  Bayesian Network, we have encountered a problem with one of the nodes, Mascular pain is the child node to age group, we have however divided age into multiple groups and it brings an error with the mascular pain node as it affects the state names, we are working on debugging the error
   + We did continuos research and uncovereed a few datasets with relation to COVID-19, the datasets will be shared to determine if we can proceed with them
   +Reasearch was carried out on other machine learning methods used to predict COVID and the major categories implemented were supervised learning and deep learning for prediction of COVID. some of the articles visited were
-    +COVID-19 Detection from CBC using Machine Learning Techniques- https://journals.gaftim.com/index.php/ijtim/article/view/22/13.
- In the above article Machine learning methods are developing as the use of the  RT-PCR 
-is time consuming, costly, specific laboratory apparatus is needed and it has approximately false-negative rate of 20%.
-The machine learning methods applied are   LASSO Logistic Regression Model,Decision Tree, Extremely Randomized Trees,K Nearest Neighbors, Logistic Regression,Naive Bayes,Random Forest   Neural Networks,  Gradient Boosting Trees,  RandomForest,  Logistic Regression  and Support  Vector  Machine. 
-The dataset utilsed is from Brazilian hospital “Albert  Einstein  Israelita  Hospital  located  in  SaoPaulo, Brazil”. The data set is mainly compromised of data with information concerning blood, the network  uses mostly blood symptoms to predict for COVID.The dataset name is dataset 1, the link is https://www.kaggle.com/code/lukmoda/covid-19-optimizing-recall-with-smote/input.
-The dataset is split 70-30, the target variable is covid test result.
-In the article we also carry out classification using the following methods K Nearest Neighbor, Radial Basis Function, NaiveBayes, kStar, PART, Random Forest, Decision tree,  OneR,  Support  Vector  Machine  and  Multi-Layer  Perceptron.
-We carry out classification and determine which methods have high accuracy as compared to others. accuracy measures the model's ability to correctly predict both positive and negative cases, while sensitivity focuses only on the model's ability to correctly predict positive cases.
+    + COVID-19 Detection from CBC using Machine Learning Techniques- https://journals.gaftim.com/index.php/ijtim/article/view/22/13.
+    In the above article Machine learning methods are developing as the use of the  RT-PCR 
+    is time consuming, costly, specific laboratory apparatus is needed and it has approximately false-negative rate of 20%.
+    The machine learning methods applied are   LASSO Logistic Regression Model,Decision Tree,
+    Extremely Randomized Trees,K Nearest          Neighbors, Logistic Regression,Naive Bayes,Random Forest   
+    Neural Networks,  Gradient    Boosting Trees,  
+    RandomForest,  Logistic Regression  and Support  Vector  Machine. 
+    The dataset utilsed is from Brazilian hospital “Albert  Einstein  Israelita  Hospital  located  in  SaoPaulo, Brazil”. 
+    The data set is   mainly compromised of data with information concerning blood, 
+    the network  uses mostly blood symptoms to predict for     COVID.
+    The dataset name is dataset 1, the link is https://www.kaggle.com/code/lukmoda/covid-19-optimizing-recall-with-smote/input.
+    The dataset is split 70-30, the target variable is covid test result.
+    In the article we also carry out classification using the following methods K Nearest Neighbor, Radial Basis Function,
+    NaiveBayes,      kStar, PART, Random Forest, Decision tree,  OneR, 
+     Support  Vector  Machine  and  Multi-Layer  Perceptron.
+     We carry out classification and determine which methods have high accuracy as compared to others. accuracy measures the model's ability      to correctly predict both positive and negative cases, while sensitivity focuses only on the model's 
+     ability to correctly predict    positive cases.
 
-    +Comparison of deep learning approaches to predict COVID-19 infection:
-https://reader.elsevier.com/reader/sd/pii/S0960077920305178?token=DDCB2646CB042C33E21E0FC35FD8934F077FC0FF73961219D29799D973AD3297100CEC18D8286D7232BEFC97CFE3240C&originRegion=us-east-1&originCreation=20230505131921
+    + Comparison of deep learning approaches to predict COVID-19 infection:
+     https://reader.elsevier.com/reader/sd/pii/S0960077920305178?     token=DDCB2646CB042C33E21E0FC35FD8934F077FC0FF73961219D29799D973AD3297100CEC18D8286D7232BEFC97CFE3240C&originRegion=us-east-1&originCreation=20230505131921
 
-we provide a prediction system for detection of
-COVID-19 infection by developing and applying various deep learning application models. Six various deep learning application models are designed and used on laboratory findings of patients. Performance of the models are measured with accuracy, precision, recall, AUC, and F1scores. The main objectives of this research can
-be summarized as follows;
-• To provide a prediction study for COVID-19 disease with deep
-learning application models with laboratory findings rather
-than X-ray or CT images,
-• To ensure the prediction model for this novel pneumonia
+     we provide a prediction system for detection of
+     COVID-19 infection by developing and applying various deep learning application models. Six various deep learning application modelare  designed and used on laboratory findings of patients. Performance of the models are measured with accuracy, precision, recall, AUC, and F1scores. The main objectives of this research can
+     be summarized as follows;
+     To provide a prediction study for COVID-19 disease with deep
+     learning application models with laboratory findings rather
+     than X-ray or CT images,
+      To ensure the prediction model for this novel pneumonia
 
-The dataset used is similar to the one above  and the link is-  https://github.com/burakalakuss/COVID-19-Clinical/blob/master/Clinical%20Data/Balanced%20Data%20Set.xlsx
+     The dataset used is similar to the one above  and the link is-  https://github.com/burakalakuss/COVID-19-    Clinical/blob/master/Clinical%20Data/Balanced%20Data%20Set.xlsx
 
-we develop and evaluate clinical predictive models to determine the COVID-19 infection with laboratory findings. To evaluate the study, we trained six different model types:
-Artificial Neural Network (ANN), Convolutional Neural Networks
-(CNN), Long-Short Term Memory (LSTM), Recurrent Neural Networks (RNN), CNNLSTM, and CNNRNN. We split the dataset 80-20, train test and determined the best method using the given dataset to classify the result, the variables are mainly from laboratory results.
-
-
-    +Symptom-Based COVID-19 Prognosis through AI-Based IoT: A Bioinformatics Approach- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9338856/
-
-Comparative analysis of predictive microbiology of COVID-19 from case symptoms using various machine learning classifiers like logistics regression, k-nearest neighbor, support vector machine, random forest, decision trees, Naïve Bayes, and gradient booster is reported here. For the sake of the validation and verification of the models, performance of each model based on the retrieved cloud-stored data was measured for accuracy.
-
-From the accuracy plot, it was concluded that k-NN was more accurate (97.97%) followed by decision tree (97.79), support vector machine (97.42), logistics regression (96.50), random forest (90.66), gradient boosting classifier (87.77), and Naïve Bayes (73.50) in COVID-19 prognosis.
-
-The dataset is from: - https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
+     we develop and evaluate clinical predictive models to determine the COVID-19 infection with laboratory findings. To evaluate the study,      we trained six different model types:
+      Artificial Neural Network (ANN), Convolutional Neural Networks
+      (CNN), Long-Short Term Memory (LSTM), Recurrent Neural Networks (RNN), CNNLSTM, and CNNRNN. We split the dataset 80-20, train test and      determined the best method using the given dataset to classify the result, the variables are mainly from laboratory results.
 
 
-    +Effective screening of SARS-CoV-2 enables quick and efficient diagnosis of COVID-19 and can mitigate the burden on healthcare systems.
+    +  Symptom-Based COVID-19 Prognosis through AI-Based IoT: A Bioinformatics Approach-   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9338856/
+
+     Comparative analysis of predictive microbiology of COVID-19 from case symptoms using various 
+     machine learning classifiers liklogistics regression, k-nearest neighbor, support vector machine,
+     random forest, decision trees, 
+     Naïve Bayes, and gradient booster is reported here. For the sake of the validation and verification of the models, performance of each      model based on the retrieved cloud-stored data was measured for accuracy.
+
+     
+
+     The dataset is from: - https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
+
+
+    + Effective screening of SARS-CoV-2 enables quick and efficient diagnosis of COVID-19 and can mitigate the burden on healthcare systems.
     
     
-  Prediction models that combine several features to estimate the risk of infection have been developed. These aim to assist medical staff worldwide in triaging patients, especially in the context of limited healthcare resources. We established a machine-learning approach that trained on records from 51,831 tested individuals (of whom 4769 were confirmed to have COVID-19). The test set contained data from the subsequent week (47,401 tested individuals of whom 3624 were confirmed to have COVID-19). Our model predicted COVID-19 test results with high accuracy using only eight binary features: sex, age ≥60 years, known contact with an infected individual, and the appearance of five initial clinical symptoms. Overall, based on the nationwide data publicly reported by the Israeli Ministry of Health, we developed a model that detects COVID-19 cases by simple features accessed by asking basic questions. Our framework can be used, among other considerations, to prioritize testing for COVID-19 when testing resources are limited.
+      Prediction models that combine several features to estimate the risk of infection have been developed. 
+      These aim to assist medical   staff worldwide in triaging patients, especially in the context of limited healthcare resources.
+      We    established a machine-learning approach that trained on records from 51,831 tested individuals 
+      (of whom 4769 were confirmed to have COVID-19). 
+      The test set contained data from the subsequent week (47,401 tested individuals of whom 3624 were 
+      confirmed to have COVID-19). Our model predicted COVID-19 test results with high accuracy using only eight binary features: 
+      sex, age ≥60 years, known contact with an infected individual, and the appearance of five initial clinical symptoms. 
+      Overall, based on the nationwide data publicly reported by the Israeli Ministry of Health, 
+      we developed a model that detects COVID-19 cases by simple features accessed by asking basic questions.
+      Our framework can be used, among other considerations, to prioritize testing for COVID-19 when testing resources are limited.
 
-Dataset: https://data.gov.il/dataset/covid-19
+      Dataset: https://data.gov.il/dataset/covid-19
 
 
 
