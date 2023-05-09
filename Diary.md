@@ -152,8 +152,12 @@ bibliography: references.bib
   - 
 - #### Andrew:
   + Working on implementation of the  Bayesian Network, we have encountered a problem with one of the nodes, Mascular pain is the child node to age group, we have however divided age into multiple groups and it brings an error with the mascular pain node as it affects the state names, we are working on debugging the error
-  + We did continuos research and uncovereed a few datasets with relation to COVID-19, the datasets will be shared to determine if we can proceed with them
-  +Reasearch was carried out on other machine learning methods used to predict COVID and the major categories implemented were supervised learning and deep learning for prediction of COVID. some of the articles visited were
+  + We did continuos research and uncovered a few datasets with relation to COVID-19, the datasets will be shared to determine if we can proceed with them
+     + https://github.com/burakalakuss/COVID-19-    Clinical/blob/master/Clinical%20Data/Balanced%20Data%20Set.xlsx
+     + https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
+     + https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
+     + https://data.gov.il/dataset/covid-19
+  + Reasearch was carried out on other machine learning methods used to predict COVID and the major categories implemented were supervised learning and deep learning for prediction of COVID. some of the articles visited were
     + COVID-19 Detection from CBC using Machine Learning Techniques- https://journals.gaftim.com/index.php/ijtim/article/view/22/13.
     In the above article Machine learning methods are developing as the use of the  RT-PCR 
     is time consuming, costly, specific laboratory apparatus is needed and it has approximately false-negative rate of 20%.
@@ -202,7 +206,7 @@ bibliography: references.bib
      The dataset is from: - https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
 
 
-    + Effective screening of SARS-CoV-2 enables quick and efficient diagnosis of COVID-19 and can mitigate the burden on healthcare systems.
+     Effective screening of SARS-CoV-2 enables quick and efficient diagnosis of COVID-19 and can mitigate the burden on healthcare systems.
     
     
       Prediction models that combine several features to estimate the risk of infection have been developed. 
