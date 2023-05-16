@@ -233,6 +233,9 @@ bibliography: references.bib
 - #### General:
   - 
 - #### Andrew:
+  + Worked on determining accuracy of the model we have generated
+  + Doing research on ways to improve accuracy which involves finding more accurate CPDS and changing the network structure
+  + Started working on final project report, begun working on the introduction.
   - 
 - #### Christine:
   - 
