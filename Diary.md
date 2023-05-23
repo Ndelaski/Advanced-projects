@@ -244,7 +244,11 @@ bibliography: references.bib
 - #### General:
   - 
 - #### Andrew:
-  - 
+  + Generated different models for the prediction of COVID-19, the models were Decision trees, random forests and logistic regression
+  + Wrote on the above models in the final report under literature review
+  
+  + worked on Stratified K Fold Cross Validation for our Bayesian model to try and improve the accuracy.
+  + Doing research on ways to bettr improve the model
 - #### Christine:
   - 
 
