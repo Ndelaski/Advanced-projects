@@ -260,7 +260,7 @@ bibliography: references.bib
 - #### Christine:
   - 
 
-### Week 13: May 29, 2022
+### Week 13: May 29, 2023
 - #### General:
   - 
 - #### Andrew:
@@ -268,38 +268,43 @@ bibliography: references.bib
 - #### Christine:
   - 
 
+### Week 14: June 5, 2023
+- #### General:
+  - 
+- #### Andrew:
+  - 
+- #### Christine:
+  - 
+
+### Week 15: June 12, 2023
+- #### General:
+  - 
+- #### Andrew:
+  - 
+- #### Christine:
+  - 
+
+### Week 16: June 19, 2023
+- #### General:
+  - 
+- #### Andrew:
+  - 
+- #### Christine:
+  - 
+
+### Week 23:August 7, 2023
 ### Week 14: June 5, 2022
 - #### General:
   - 
 - #### Andrew:
+    + We applied Hill climb algorith and used the bayesian estimator to try and improve on model accuracy
+    + We had a brief look at AGENARISK software, it is similar to AISpace and we can use it ,AISpace, for th graphical design of our model once we are done
+    + worked on cleaning the new data and trying to fetermine the best predicting variables for Long COVID and the corresponding network structure
+    + Carried out sensitivity analysis, improved output however overall accuracy is still very low
+    + Curios on methods for improving accuracy apart fromnetwork design, accurate CPD values, using  an appropriate dataset
   - 
 - #### Christine:
   - 
-
-### Week 15: June 12, 2022
-- #### General:
-  - 
-- #### Andrew:
-  - 
-- #### Christine:
-  - 
-
-### Week 16: June 19, 2022
-- #### General:
-  - 
-- #### Andrew:
-  - 
-- #### Christine:
-  - 
-
-### Week 17: June 26, 2022
-- #### General:
-  - 
-- #### Andrew:
-  - 
-- #### Christine:
-  - 
-
 <!-- add weeks until needed -->
 
 ## References
