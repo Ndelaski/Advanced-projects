@@ -305,6 +305,16 @@ bibliography: references.bib
   - 
 - #### Christine:
   - 
+  ### Week 24:August 14, 2023
+### Week 14: June 5, 2022
+- #### General:
+  - 
+- #### Andrew:
+    + We improved the accuracy of our original model to a value greater that 0.7
+    + Worked on implementing the model on agenarisk
+    
+- #### Christine:
+  - 
 <!-- add weeks until needed -->
 
 ## References
