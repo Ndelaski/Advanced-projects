@@ -314,6 +314,23 @@ bibliography: references.bib
     + Worked on implementing the model on agenarisk
     
 - #### Christine:
+  ### Week 25:August 21, 2023
+
+- #### General:
+  - 
+- #### Andrew:
+    + When updating the probability distribution with new data
+      + determine the new node and the connections it has
+      + Extend the network structure to include the new node and its connections
+      + Create new CPTS for new nodes and all its connections
+      + update existing CPTS between new nodes and existing ones
+      + Normalize the new CPTs created
+    + preferred methods to update probability distribution of new data
+      + Bayesian estimator
+      + maximum likelihood estimation
+
+    
+- #### Christine:
   - 
 <!-- add weeks until needed -->
 
